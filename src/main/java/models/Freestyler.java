@@ -19,7 +19,7 @@ public class Freestyler extends Ballsporter implements PlayerFeatures{
     //overrides from player features interface
     @Override
     public void personalMotto() {
-        System.out.println("It is all about the fun of handling the ball");
+        System.out.println("It is all about the fun of handling the ball.");
     }
 
     //Overrides from "Ballsporter"

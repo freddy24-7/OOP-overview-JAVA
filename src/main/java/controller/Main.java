@@ -7,15 +7,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Footballer christiano = new Footballer(36, 70, 192, "Christiano", "Ronaldo", true);
+        Footballer firstFootballPlayer = new Footballer(36, 70, 192, "", "", true);
 
-        christiano.setPosition("forward");
-        christiano.setTeam("Manchester United");
+        firstFootballPlayer.setFirstname("Chrisiano");
+        firstFootballPlayer.setSurname("Ronaldo");
+        firstFootballPlayer.setPosition("forward");
+        firstFootballPlayer.setTeam("Manchester United");
 
-        christiano.setAge(37);
+        firstFootballPlayer.setAge(37);
 //        System.out.println(christiano.getAge());
-        christiano.personalMotto();
-        System.out.println(christiano.toString());
+        firstFootballPlayer.personalMotto();
+        System.out.println(firstFootballPlayer.toString());
 //        System.out.println(christiano.isProfessional());
         System.out.println();
 
@@ -24,7 +26,6 @@ public class Main {
         freestyler.setFirstname("Soufiane");
         freestyler.setSurname("Touzani");
         freestyler.setSkill_level("'very high'");
-
 
         freestyler.personalMotto();
         System.out.println(freestyler.toString());
